@@ -1,6 +1,7 @@
 # Salesforce Lightning Component with FusionChart 
 This is a demo only, and supplied as is. Use at your own risk.
 Fusion Charts is a commercial library solution, this demo uses the "trial" version available from FusionCharts.
+The respository is stored in SFDX format.
 
 ## Resources
 Uses the commercial fusion chart libraries
