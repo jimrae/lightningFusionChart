@@ -1,0 +1,15 @@
+<!--
+ - Created by jimrae on 2/26/18.
+ -->
+
+<aura:component description="chartHandler" implements="flexipage:availableForAllPageTypes,force:appHostable">
+    <ltng:require scripts='/resource/fusionResources/fusioncharts.js,
+            /resource/fusionResources/themes/fusioncharts.theme.fint.js'
+                    afterScriptsLoaded="{!c.afterScriptsLoaded}" />
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+        <lightning:layout pullToBoundary="small" horizontalAlign="center">
+            <lightning:layoutItem flexibility="auto" padding="around-small" size="12">
+                    <div aura:id="chartContainer" />
+            </lightning:layoutItem>
+        </lightning:layout>
+</aura:component>
